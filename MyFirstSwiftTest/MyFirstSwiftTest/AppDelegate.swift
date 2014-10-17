@@ -20,8 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         var vC:ViewController = ViewController()
         var nav:UINavigationController = UINavigationController(rootViewController: vC)
-        nav.navigationBar.backgroundColor = UIColor.purpleColor()
-        //nav.navigationBar.setBackgroundImage(UIImage(named: "topBarNew_bg1.png"), forBarMetrics: UIBarMetrics.Default)
+        nav.navigationBar.setBackgroundImage(UIImage(named: "topBarNew_bg1.png"), forBarMetrics: UIBarMetrics.Default)
+        nav.navigationBar.translucent = false;
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         self.window?.rootViewController = nav
         
         return true

@@ -17,6 +17,9 @@
 		3E8032CE19EE41FA004648DC /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8032CD19EE41FA004648DC /* ScrollViewController.swift */; };
 		3E8032D019EE420B004648DC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8032CF19EE420B004648DC /* WebViewController.swift */; };
 		3E8032D319EE52E8004648DC /* topBarNew_bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8032D219EE52E8004648DC /* topBarNew_bg1@2x.png */; };
+		3EE8A9F119F0AC8100E3B199 /* KCContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8A9F019F0AC8100E3B199 /* KCContact.swift */; };
+		3EE8A9F319F0B3B600E3B199 /* KCContactGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8A9F219F0B3B600E3B199 /* KCContactGroup.swift */; };
+		3EE8A9F519F0DBA400E3B199 /* iOS-defaultHead0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE8A9F419F0DBA400E3B199 /* iOS-defaultHead0@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3E8032CD19EE41FA004648DC /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		3E8032CF19EE420B004648DC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		3E8032D219EE52E8004648DC /* topBarNew_bg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topBarNew_bg1@2x.png"; sourceTree = "<group>"; };
+		3EE8A9F019F0AC8100E3B199 /* KCContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCContact.swift; sourceTree = "<group>"; };
+		3EE8A9F219F0B3B600E3B199 /* KCContactGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCContactGroup.swift; sourceTree = "<group>"; };
+		3EE8A9F419F0DBA400E3B199 /* iOS-defaultHead0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS-defaultHead0@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		3E34AF5D19E8FD050066D4EA /* MyFirstSwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				3EE8A9EF19F0AC6900E3B199 /* Entity */,
 				3E8032D119EE52E1004648DC /* images */,
 				3E34AF6019E8FD050066D4EA /* AppDelegate.swift */,
 				3E34AF6219E8FD050066D4EA /* ViewController.swift */,
@@ -127,9 +134,19 @@
 		3E8032D119EE52E1004648DC /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3EE8A9F419F0DBA400E3B199 /* iOS-defaultHead0@2x.png */,
 				3E8032D219EE52E8004648DC /* topBarNew_bg1@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		3EE8A9EF19F0AC6900E3B199 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3EE8A9F019F0AC8100E3B199 /* KCContact.swift */,
+				3EE8A9F219F0B3B600E3B199 /* KCContactGroup.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE8A9F519F0DBA400E3B199 /* iOS-defaultHead0@2x.png in Resources */,
 				3E8032D319EE52E8004648DC /* topBarNew_bg1@2x.png in Resources */,
 				3E34AF6619E8FD050066D4EA /* Main.storyboard in Resources */,
 				3E34AF6B19E8FD050066D4EA /* LaunchScreen.xib in Resources */,
@@ -237,6 +255,8 @@
 				3E8032CC19EE41E9004648DC /* TableViewController.swift in Sources */,
 				3E34AF6119E8FD050066D4EA /* AppDelegate.swift in Sources */,
 				3E8032D019EE420B004648DC /* WebViewController.swift in Sources */,
+				3EE8A9F119F0AC8100E3B199 /* KCContact.swift in Sources */,
+				3EE8A9F319F0B3B600E3B199 /* KCContactGroup.swift in Sources */,
 				3E8032CE19EE41FA004648DC /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
