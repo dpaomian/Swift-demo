@@ -106,8 +106,9 @@ class TableViewController:UIViewController,UITableViewDelegate,UITableViewDataSo
         let contactGroup = contactGroupArray.objectAtIndex(indexPath.section) as KCContactGroup
         let contact = contactGroup.contacts.objectAtIndex(indexPath.row) as KCContact
         
+//        cell.textLabel?.text =  contact.fristName! + contact.lastName! + contact.testSum() + contact.testSum("传参")
         cell.textLabel?.text =  contact.fristName! + contact.lastName!
-//        cell.textLabel?.font = UIFont.systemFontOfSize(12)
+ //        cell.textLabel?.font = UIFont.systemFontOfSize(12)
         cell.detailTextLabel?.text = contact.phoneNumber
         cell.imageView?.image = UIImage(named:"iOS-defaultHead0.png")
         

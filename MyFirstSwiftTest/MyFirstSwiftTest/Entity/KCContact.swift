@@ -14,6 +14,15 @@ class KCContact: NSObject {
     var lastName:String?
     var phoneNumber:String?
     
+//    //测试两个方法 传参与不传参
+//    func testSum()->String{
+//        return "不传参数"
+//    }
+//    
+//    func testSum(sum: String)->String{
+//        return sum
+//    }
+    
     func initUse(firstName:String,lastName:String,phoneNumber:String)
     {
         self.fristName = firstName
